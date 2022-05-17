@@ -6,6 +6,7 @@ export default function PropsDemo(props) {
       <h1>PropsDemo</h1>
       <h2>property 1 : {props.uname}</h2>
       <h2>property 2 : {props.email}</h2>
+      <h2>children : {props.children}</h2>
     </div>
   );
 }
