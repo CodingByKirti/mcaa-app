@@ -7,6 +7,7 @@ import MyComp from "./MyComp";
 import StudentsComp from "./StudentsComp";
 import Two from "./Two";
 
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<App />);
 

@@ -5,11 +5,13 @@ import PropsDemo2 from "./PropsDemo2";
 import Message from "./Message";
 import Likes from "./Likes";
 import PropTypesDemo from "./PropTypesDemo";
-
+import Parent from "./Shop/Parent";
+import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <div className="App">
-      <Message />
+      <Parent />
+      {/* <Message />
       <hr />
       <Likes />
       <hr />
@@ -20,7 +22,7 @@ function App() {
       <hr />
       <PropsDemo2 a="hello" b="bye" />
       <hr />
-      <PropTypesDemo />
+      <PropTypesDemo /> */}
     </div>
   );
 }
